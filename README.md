@@ -23,11 +23,9 @@ In this Project, we are going to predict the Price of Used Cars using various fe
 
 ## Table of Contents
 
-- [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Webapp](#webapp)
 
 ## Features
 
@@ -43,10 +41,14 @@ In this Project, we are going to predict the Price of Used Cars using various fe
 
 2. Install dependencies:
 
-  ```bash
+   ```bash
    pip install -r requirements.txt
-```
+   ```
 
 ## Usage
-```bash
+   ```bash
    streamlit run application.py
+   ```
+
+## Webapp
+   If you want to view the deployed model, click on the following link: 
