@@ -1,39 +1,103 @@
-# Car-Resale-Value-Prediction
+# 🚗 Car Resale Value Prediction
 
-To be able to predict used cars market value can help both buyers and sellers. There are lots of individuals who are interested in the used car market at some points in their life because they wanted to sell their car or buy a used car. In this process, it’s a big corner to pay too much or sell less then it’s market value.
+Predicting the resale value of used cars can help both **buyers** and **sellers** make informed decisions. Whether you're trying to buy a reliable car without overpaying, or sell one at the right price, understanding market value is essential.
 
-In this Project, we are going to predict the Price of Used Cars using various features like Company, Car model, Kms_Driven, Fuel_Type, Year etc. The data used in this project is also given in the repository.
-If you are searching for Code, Algorithms used and Accuracy of the model Please Open "CarPriceAnalysis.ipynb" file
-If you are looking for dataset, Please Open "quikr_car.csv" file (yt: CampusX)
+This project uses machine learning to **predict the price of used cars** based on features like company, model, kilometers driven, fuel type, year, and more.
 
-## Table of Contents
+<p align="center">
+  <img src="demo/car_price_demo.gif" width="600" alt="App Demo"/>
+  <!-- Replace with an actual demo or screenshot -->
+</p>
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Webapp](#webapp)
+---
 
-## Features
+## 🧠 What’s Inside?
 
-- List some key features of your project.
+- A complete data science pipeline: preprocessing, training, and evaluation  
+- Feature engineering and regression modeling  
+- An interactive **Streamlit** web application  
+- Preloaded dataset: `quikr_car.csv`  
+- Notebook for detailed analysis: `CarPriceAnalysis.ipynb`
 
-## Installation
+---
 
-1. Clone the repository:
+## 📄 Table of Contents
 
-   ```bash
-   git clone https://github.com/towhaEL/Car-Resale-Value-Prediction.git
-   cd your-repository
+- [Features](#-features)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Web App](#-web-app)
+- [Dataset & Notebook](#-dataset--notebook)
+- [Author](#-author)
+- [License](#-license)
 
-2. Install dependencies:
+---
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+## ✨ Features
 
-## Usage
-   ```bash
-   streamlit run application.py
-   ```
+- Predict resale price of a car based on key inputs  
+- Cleaned dataset and exploratory analysis  
+- Trained ML model for regression  
+- Deployed as an interactive web app  
+- Simple UI for user interaction using **Streamlit**
 
-## Webapp
-   If you want to view the deployed model, click on the following link: https://towhael.streamlit.app/
+---
+
+## ⚙️ Installation
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/towhaEL/Car-Resale-Value-Prediction.git
+cd Car-Resale-Value-Prediction
+```
+
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## ▶️ Usage
+
+To launch the web application locally:
+```bash
+streamlit run application.py
+```
+
+---
+
+## 🌐 Web App
+
+Try out the deployed application:  
+**[Live App on Streamlit](https://towhael.streamlit.app/)**
+
+> No installation needed — open the link and predict instantly!
+
+---
+
+## 📊 Dataset & Notebook
+
+- **Dataset**: [`quikr_car.csv`](quikr_car.csv)  
+- **Analysis & Model**: [`CarPriceAnalysis.ipynb`](CarPriceAnalysis.ipynb)
+
+Includes all data preprocessing, model training, and evaluation steps.
+
+---
+
+## ✍️ Author
+
+- **Towha Elahi**  
+  [GitHub](https://github.com/towhaEL) | [LinkedIn](https://www.linkedin.com/in/towhae)
+
+---
+
+## ⚖️ License
+
+This project is licensed under the MIT License. See `LICENSE` for more information.
+
+---
+
+## ⭐ Show Your Support
+
+If you found this project useful or interesting, consider giving it a ⭐ and sharing it!
